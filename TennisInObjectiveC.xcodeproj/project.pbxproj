@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BAD8451A86CA3E0090299F /* TieBreaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAD8441A86CA3E0090299F /* TieBreaker.m */; };
+		18BAD8471A86CA5A0090299F /* TieBreakerScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAD8461A86CA5A0090299F /* TieBreakerScore.m */; };
+		18BAD8491A86CC020090299F /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAD8481A86CC020090299F /* Set.m */; };
+		18BAD84C1A86CC2D0090299F /* SetScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAD84B1A86CC2D0090299F /* SetScore.m */; };
+		18BAD8501A86CD260090299F /* MatchScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAD84F1A86CD260090299F /* MatchScore.m */; };
+		18BAD8521A8862FD0090299F /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAD8511A8862FD0090299F /* Match.m */; };
 		3E9337A21890C2F000A0AFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9337A11890C2F000A0AFC0 /* Foundation.framework */; };
 		3E9337A41890C2F000A0AFC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9337A31890C2F000A0AFC0 /* CoreGraphics.framework */; };
 		3E9337A61890C2F000A0AFC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9337A51890C2F000A0AFC0 /* UIKit.framework */; };
@@ -21,6 +27,12 @@
 		3E9337C31890C2F000A0AFC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9337A51890C2F000A0AFC0 /* UIKit.framework */; };
 		3E9337CB1890C2F000A0AFC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E9337C91890C2F000A0AFC0 /* InfoPlist.strings */; };
 		3E9337CD1890C2F000A0AFC0 /* TennisInObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337CC1890C2F000A0AFC0 /* TennisInObjectiveCTests.m */; };
+		3E9337D81890C31200A0AFC0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337D71890C31200A0AFC0 /* Player.m */; };
+		3E9337DC1890CDAD00A0AFC0 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337DB1890CDAD00A0AFC0 /* Score.m */; };
+		3E9337DF1890D69200A0AFC0 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337DE1890D69200A0AFC0 /* Game.m */; };
+		3E9337E21890D73600A0AFC0 /* GameScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337E11890D73600A0AFC0 /* GameScore.m */; };
+		3E9337E51890D9D100A0AFC0 /* Competition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337E41890D9D100A0AFC0 /* Competition.m */; };
+		3E9337E81890DBD800A0AFC0 /* PointScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337E71890DBD800A0AFC0 /* PointScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18BAD8421A86AF450090299F /* TieBreaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TieBreaker.h; sourceTree = "<group>"; };
+		18BAD8431A86AF790090299F /* TieBreakerScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TieBreakerScore.h; sourceTree = "<group>"; };
+		18BAD8441A86CA3E0090299F /* TieBreaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TieBreaker.m; sourceTree = "<group>"; };
+		18BAD8461A86CA5A0090299F /* TieBreakerScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TieBreakerScore.m; sourceTree = "<group>"; };
+		18BAD8481A86CC020090299F /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
+		18BAD84A1A86CC160090299F /* Set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
+		18BAD84B1A86CC2D0090299F /* SetScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetScore.m; sourceTree = "<group>"; };
+		18BAD84D1A86CC3F0090299F /* SetScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetScore.h; sourceTree = "<group>"; };
+		18BAD84E1A86CD120090299F /* MatchScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchScore.h; sourceTree = "<group>"; };
+		18BAD84F1A86CD260090299F /* MatchScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchScore.m; sourceTree = "<group>"; };
+		18BAD8511A8862FD0090299F /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		18BAD8531A8863150090299F /* Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
 		3E93379E1890C2F000A0AFC0 /* TennisInObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisInObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9337A11890C2F000A0AFC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E9337A31890C2F000A0AFC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +77,18 @@
 		3E9337C81890C2F000A0AFC0 /* TennisInObjectiveCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TennisInObjectiveCTests-Info.plist"; sourceTree = "<group>"; };
 		3E9337CA1890C2F000A0AFC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E9337CC1890C2F000A0AFC0 /* TennisInObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisInObjectiveCTests.m; sourceTree = "<group>"; };
+		3E9337D61890C31200A0AFC0 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3E9337D71890C31200A0AFC0 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3E9337DA1890CDAD00A0AFC0 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		3E9337DB1890CDAD00A0AFC0 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		3E9337DD1890D69200A0AFC0 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3E9337DE1890D69200A0AFC0 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		3E9337E01890D73600A0AFC0 /* GameScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScore.h; sourceTree = "<group>"; };
+		3E9337E11890D73600A0AFC0 /* GameScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScore.m; sourceTree = "<group>"; };
+		3E9337E31890D9D100A0AFC0 /* Competition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Competition.h; sourceTree = "<group>"; };
+		3E9337E41890D9D100A0AFC0 /* Competition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Competition.m; sourceTree = "<group>"; };
+		3E9337E61890DBD800A0AFC0 /* PointScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointScore.h; sourceTree = "<group>"; };
+		3E9337E71890DBD800A0AFC0 /* PointScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +148,7 @@
 		3E9337A71890C2F000A0AFC0 /* TennisInObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				3E9337D91890C33A00A0AFC0 /* Tennis Files */,
 				3E9337B01890C2F000A0AFC0 /* AppDelegate.h */,
 				3E9337B11890C2F000A0AFC0 /* AppDelegate.m */,
 				3E9337B31890C2F000A0AFC0 /* Main.storyboard */,
@@ -150,6 +187,37 @@
 				3E9337C91890C2F000A0AFC0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9337D91890C33A00A0AFC0 /* Tennis Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9337D61890C31200A0AFC0 /* Player.h */,
+				3E9337D71890C31200A0AFC0 /* Player.m */,
+				3E9337DA1890CDAD00A0AFC0 /* Score.h */,
+				3E9337DB1890CDAD00A0AFC0 /* Score.m */,
+				3E9337DD1890D69200A0AFC0 /* Game.h */,
+				3E9337DE1890D69200A0AFC0 /* Game.m */,
+				3E9337E01890D73600A0AFC0 /* GameScore.h */,
+				3E9337E11890D73600A0AFC0 /* GameScore.m */,
+				3E9337E31890D9D100A0AFC0 /* Competition.h */,
+				3E9337E41890D9D100A0AFC0 /* Competition.m */,
+				3E9337E61890DBD800A0AFC0 /* PointScore.h */,
+				3E9337E71890DBD800A0AFC0 /* PointScore.m */,
+				18BAD8421A86AF450090299F /* TieBreaker.h */,
+				18BAD8441A86CA3E0090299F /* TieBreaker.m */,
+				18BAD8431A86AF790090299F /* TieBreakerScore.h */,
+				18BAD8461A86CA5A0090299F /* TieBreakerScore.m */,
+				18BAD84A1A86CC160090299F /* Set.h */,
+				18BAD8481A86CC020090299F /* Set.m */,
+				18BAD84D1A86CC3F0090299F /* SetScore.h */,
+				18BAD84B1A86CC2D0090299F /* SetScore.m */,
+				18BAD84E1A86CD120090299F /* MatchScore.h */,
+				18BAD84F1A86CD260090299F /* MatchScore.m */,
+				18BAD8511A8862FD0090299F /* Match.m */,
+				18BAD8531A8863150090299F /* Match.h */,
+			);
+			name = "Tennis Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +264,7 @@
 		3E9337961890C2F000A0AFC0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Ali Kooshesh";
 				TargetAttributes = {
 					3E9337BE1890C2F000A0AFC0 = {
@@ -249,9 +317,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BAD8491A86CC020090299F /* Set.m in Sources */,
+				3E9337D81890C31200A0AFC0 /* Player.m in Sources */,
+				18BAD8471A86CA5A0090299F /* TieBreakerScore.m in Sources */,
+				18BAD8521A8862FD0090299F /* Match.m in Sources */,
+				18BAD8451A86CA3E0090299F /* TieBreaker.m in Sources */,
+				18BAD84C1A86CC2D0090299F /* SetScore.m in Sources */,
 				3E9337B81890C2F000A0AFC0 /* ViewController.m in Sources */,
+				3E9337E81890DBD800A0AFC0 /* PointScore.m in Sources */,
+				3E9337DC1890CDAD00A0AFC0 /* Score.m in Sources */,
+				18BAD8501A86CD260090299F /* MatchScore.m in Sources */,
+				3E9337E51890D9D100A0AFC0 /* Competition.m in Sources */,
+				3E9337DF1890D69200A0AFC0 /* Game.m in Sources */,
 				3E9337B21890C2F000A0AFC0 /* AppDelegate.m in Sources */,
 				3E9337AE1890C2F000A0AFC0 /* main.m in Sources */,
+				3E9337E21890D73600A0AFC0 /* GameScore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +385,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +423,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +480,6 @@
 		3E9337D41890C2F000A0AFC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TennisInObjectiveC.app/TennisInObjectiveC";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +502,6 @@
 		3E9337D51890C2F000A0AFC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TennisInObjectiveC.app/TennisInObjectiveC";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +536,7 @@
 				3E9337D21890C2F000A0AFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E9337D31890C2F000A0AFC0 /* Build configuration list for PBXNativeTarget "TennisInObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +545,7 @@
 				3E9337D51890C2F000A0AFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
